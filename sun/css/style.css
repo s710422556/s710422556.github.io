@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  /*background-color: #333333;*/
+  /*color: #fff;*/
+  font-size: 24px;
+}
+img{
+
+  width: 100%;
+  text-align: center;
+  margin-top:5px;
+}
+.xingming{
+
+  font-size: 16px;
+  color: green;
+}
+.container{
+  /*margin-top: 10px;*/
+
+  text-align: center;
+}
+.touxiang{
+  border-radius: 80%;
+}
+nav{
+  height: 80px;
+  text-align: center;
+}
+nav a {
+ display: inline-block;
+
+ font-size: 16px;
+
+}
+p{
+
+  font-size: 16px;
+}
