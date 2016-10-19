@@ -7,10 +7,11 @@ app.factory('commonService',['$http',function($http){
       method:'get'
     })
     .then(function(res){
-      console.log('成功');
+      console.log('获取数据成功');
       callBack(res);
-    }),function(err){
+    },function(err){
       console.dir(err);
-    }
-  };
+    });
+  }
+  return service;
 }]);
